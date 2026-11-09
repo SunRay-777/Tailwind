@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adama Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+  <div class="flex items-center space-x-2">
+    <img src="logo.png" alt="Blog Logo" class="h-10 w-10 rounded-full">
+    <h1 class="text-xl font-bold">Adama Blog</h1>
+    <nav class="space-x-4">
+      <a href="#" class="hover:text-gray-200">Home</a>
+      <a href="#" class="hover:text-gray-200">Categories</a>
+      <a href="#" class="hover:text-gray-200">About</a>
+    </nav>
+  </header>
+
+  <!-- Featured Posts -->
+ <section class="p-8">
+  <h2 class="text-2xl font-bold mb-4">Featured Posts</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- Card 1 -->
+    <div class="bg-white shadow rounded overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=400&q=80" alt="Post 1" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg">Let's look at the stars</h3>
+        <p class="text-gray-600">Short excerpt of the post...</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white shadow rounded overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Post 2" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg">How to enjoy together</h3>
+        <p class="text-gray-600">Another short excerpt...</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white shadow rounded overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Post 3" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg">How to make a project working !</h3>
+        <p class="text-gray-600">Yet another excerpt...</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Categories -->
+  <section class="p-8 bg-gray-50">
+    <h2 class="text-2xl font-bold mb-4">Categories</h2>
+    <div class="flex gap-2 flex-wrap">
+      <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Tech</span>
+      <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Lifestyle</span>
+      <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Travel</span>
+    </div>
+  </section>
+
+  <!-- Recent Posts -->
+  <section class="p-8">
+    <h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+    <ul class="divide-y divide-gray-200">
+      <li class="py-2 flex justify-between">
+        <span class="font-semibold">Let's look at the stars</span>
+        <span class="text-gray-500">Nov 2026</span>
+      </li>
+       <li class="py-2 flex justify-between">
+        <span class="font-semibold">How to enjoy together</span>
+        <span class="text-gray-500">Oct 2026</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="p-8 bg-gray-50">
+    <h2 class="text-2xl font-bold mb-4">Subscribe</h2>
+    <form class="flex gap-2 max-w-md">
+      <input type="email" placeholder="Your email" class="border p-2 rounded flex-1">
+      <button class="bg-blue-600 text-white px-4 rounded hover:bg-blue-700">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-4 flex justify-between items-center">
+    <p>&copy; 2026 Adama Blog</p>
+    <div class="space-x-4">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>
